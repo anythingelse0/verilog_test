@@ -1,6 +1,7 @@
 `timescale 1ns / 1ns
-
+/* verilator lint_off DECLFILENAME */
 interface TS_Intf;
+  /* verilator lint_off UNUSEDSIGNAL */
   logic Data;
   logic slave_D[0:1];
   logic [7:0] Adrs;
