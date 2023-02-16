@@ -34,4 +34,7 @@ module msequence8
         end
     end
 
-endmodulde
+endmodule
+
+
+
