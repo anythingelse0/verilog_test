@@ -21,8 +21,12 @@ assign en = 1;
 assign #100 rst_n = 1; 
 
 initial begin
+    $dumpvars;
+    $dumpon;
     #10000
+    $dumpoff;
     $finish;
 end
 
+ initial   $dumpfile("tb.vcd");
 endmodule
